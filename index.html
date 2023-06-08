@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag-and-drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="content">
+        <div id="container1" class="container">
+            <!-- Draggable items -->
+            <div class="item" draggable="true">Item 1</div>
+            <div class="item" draggable="true">Item 2</div>
+            <div class="item" draggable="true">Item 3</div>
+        </div>
+        
+        <div id="container2" class="container"></div>
+    </div>
+    
+    <!-- Success message displayed when an item is dropped -->
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <img src="Img/preview.gif" alt="">
+        </div>
+    </div>
+    
+    <!-- Reset button to clear the second container and reset the first container -->
+    <button id="resetContainers"><p>Reset</p></button>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
